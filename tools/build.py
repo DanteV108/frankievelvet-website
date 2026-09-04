@@ -13,15 +13,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "src")
 
 NAV = [
-    ("index.html", "Front"),
-    ("history.html", "The Legend"),
+    ("index.html", "Home"),
+    ("history.html", "History"),
     ("band.html", "The Band"),
     ("discography.html", "Discography"),
     ("listen.html", "Listen"),
     ("press.html", "Press"),
-    ("tour.html", "Engagements"),
-    ("gallery.html", "Archive"),
-    ("society.html", "The Society"),
+    ("tour.html", "Live"),
+    ("gallery.html", "Photographs"),
+    ("contact.html", "Contact"),
 ]
 
 FONTS = ("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700"
@@ -59,8 +59,8 @@ def head(title, desc):
 <header class="masthead">
   <div class="wrap">
     <div class="masthead__top">
-      <span>The Official Archive &middot; Compiled by the Tendertones Appreciation Society</span>
-      <span>Preston &middot; St Kilda &middot; Estoril &middot; At Sea</span>
+      <span>Established Melbourne, 1991</span>
+      <span>Fridays &middot; The Emerald Room, Coburg</span>
     </div>
     <a class="masthead__name" href="index.html">
       <em>Continental Entertainment Since 1991</em>
@@ -96,47 +96,42 @@ __BODY__
   <div class="wrap">
     <div class="foot__grid">
       <div>
-        <h4>The Archive</h4>
+        <h4>The Band</h4>
         <ul>
-          <li><a href="history.html">The Legend, 1991&ndash;2026</a></li>
-          <li><a href="band.html">The Band &amp; the Roll</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="band.html">Members</a></li>
+          <li><a href="gallery.html">Photographs</a></li>
+          <li><a href="press.html">Press</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The Music</h4>
+        <ul>
           <li><a href="discography.html">Discography</a></li>
-          <li><a href="tour.html">Engagement Diary</a></li>
-          <li><a href="gallery.html">Photographic Archive</a></li>
+          <li><a href="listen.html">Listen</a></li>
+          <li><a href="discography.html#singles">Singles</a></li>
         </ul>
       </div>
       <div>
-        <h4>Documents</h4>
+        <h4>Live</h4>
         <ul>
-          <li><a href="press.html">Press File</a></li>
-          <li><a href="press.html#interviews">The Interviews</a></li>
-          <li><a href="history.html#charter">The Tendertone Charter</a></li>
-          <li><a href="history.html#santa-fe">The Santa Fe Affair</a></li>
-          <li><a href="society.html#bulletin">The Tender Bulletin</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Engagements</h4>
-        <ul>
+          <li><a href="tour.html">Dates</a></li>
           <li>The Emerald Room, Coburg</li>
           <li>Fridays from 8.30</li>
-          <li>Two drinks minimum</li>
-          <li><a href="society.html#bookings">Private &amp; function bookings</a></li>
         </ul>
       </div>
       <div>
-        <h4>The Society</h4>
+        <h4>Enquiries</h4>
         <ul>
-          <li>Founded 1997 by M. Croll</li>
-          <li>President: Colleen Whitrod</li>
-          <li>412 members</li>
-          <li><a href="society.html">Membership</a></li>
+          <li><a href="contact.html">Bookings</a></li>
+          <li><a href="contact.html#requirements">Stage requirements</a></li>
+          <li>mail@frankievelvet.com.au</li>
         </ul>
       </div>
     </div>
     <div class="foot__base">
-      <span>&copy; 1991&ndash;2026 The Tendertones Appreciation Society &middot; Preston, Victoria</span>
-      <span>Tenderness, Nightly</span>
+      <span>Frankievelvet and the Tendertones &middot; Melbourne</span>
+      <span>&copy; 2026</span>
     </div>
   </div>
 </footer>

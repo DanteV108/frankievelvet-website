@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Split the contact-sheet grids into individual frames."""
-import os, glob
+import os, glob, re
 from PIL import Image
 
 SRC = "/mnt/user-data/uploads/group shots"
@@ -60,24 +60,9 @@ def split(path, tag):
 
 total = 0
 for p in sorted(glob.glob(os.path.join(SRC, "*.png"))):
-    tag = p.split("T01_33_")[-1].replace(".png", "")
+    m = re.search(r"T\\d{2}_\\d{2}_(\\d+)", p)
+    tag = m.group(1) if m else os.path.splitext(os.path.basename(p))[0][-6:]
     total += split(p, tag)
 print("frames:", total)
 
-# contact sheet for review
-files = sorted(glob.glob(os.path.join(WORK, "*.png")))
-cols, cell = 6, 320
-rows = (len(files) + cols - 1) // cols
-sheet = Image.new("RGB", (cols * cell, rows * (cell + 22)), (245, 240, 230))
-from PIL import ImageDraw
-d = ImageDraw.Draw(sheet)
-for i, f in enumerate(files):
-    im = Image.open(f)
-    im.thumbnail((cell - 8, cell - 8), Image.LANCZOS)
-    x = (i % cols) * cell + (cell - im.width) // 2
-    y = (i // cols) * (cell + 22) + 4
-    sheet.paste(im, (x, y))
-    d.text(((i % cols) * cell + 6, (i // cols) * (cell + 22) + cell - 2),
-           os.path.basename(f).replace(".png", ""), fill=(60, 40, 30))
-sheet.save("/home/claude/frankievelvet/work/contact-sheet.png")
-print("sheet:", sheet.size)
+print("frames written to", WORK)

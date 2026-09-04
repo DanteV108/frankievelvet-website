@@ -1,11 +1,11 @@
-# FRANKIE VELVET AND THE TENDERTONES — CANON
+# FRANKIEVELVET AND THE TENDERTONES — CANON
 _Internal continuity bible. Not for publication. Keep the site consistent with this._
 
 ## THE ACT
-- **Full billing:** Frankie Velvet and the Tendertones
+- **Full billing:** Frankievelvet and the Tendertones (one word, from a 1993 printer's error). The man is Frankie Velvet, two words.
 - **Formed:** 14 February 1991, Astoria Reception Centre, Thornbury, Victoria
 - **Self-described genre:** "the Velvet Sound." Critics say **Preston Baroque** (coined as an insult, 1996, adopted by the band 1997).
-- **Motto (on all posters since 1994):** _"Tenderness, Nightly."_
+- **Strapline (on the posters since 1994):** _"Tenderness, Nightly."_
 - **Colours:** oxblood and gold. The band's own term for the palette is "supper-club".
 
 ## FRANKIE VELVET
@@ -26,37 +26,38 @@ the solo "interval singer," recruited three men from the room and played four ho
 
 They played "Do You Know the Way to Santa Fe?" eleven times because it was the only chart Barry
 could read. The band was named at 1.40am by the bride's mother, Marjorie Croll, who called them
-"a lot of tender tones." Marjorie later ran the fan club.
+"a lot of tender tones." She was Bettina Croll's grandmother.
 
-## THE SANTA FE PROBLEM (running joke — do not resolve)
-Frankie has sung the Bacharach–David standard as "Do You Know the Way to **Santa Fe**?" since 1991.
-He maintains this is correct and that everyone else is mistaken. It became the band's signature
-number, their first single, and eventually a licensing dispute (2023, "the Santa Fe Affair"),
-settled with a credited "reinterpretation." He still sings Santa Fe. He has never once explained why.
+## SANTA FE — HANDLE WITH RESTRAINT
+The song has been in the set since the first night and has always been sung that way. The site
+states this **once**, in the repertoire section of history.html, in a single sentence, and never
+returns to it. No explanation, no dispute, no jokes about it anywhere else. If you add copy, do not
+mention it again.
 
-## THE LONG IPANEMA (running joke)
+## THE LONG IPANEMA
 The band's arrangement of "The Girl from Ipanema" grew by roughly ninety seconds a year from 1994.
 Longest documented performance: **41 minutes 12 seconds**, Hotel Sirocco, 3 October 1999.
 Released in full as the album *The Long Ipanema* (2022), one track, two sides of vinyl.
 
-## THE TENDERTONE CHARTER
-Written on the back of a Sirocco drinks list, 2 June 1994. Seven articles. Framed above the bar.
-1. Tenderness, nightly.
-2. No stick shall touch a drum head. (Brushes only, since Waz Tiplady, 1998.)
-3. Every request is honoured, whether or not it is known.
-4. A departing Tendertone nominates his own replacement.
-5. The band does not stop for applause and does not stop for its absence.
-6. Nobody discusses the arrangement in front of the audience.
-7. The last song is always slow.
+## SETTLED PRACTICE (not a written code — never call it a charter)
+- Nobody auditions. A departing Tendertone nominates the person who takes the chair.
+- Brushes, not sticks (since Tiplady, 1998).
+- Requests are taken and generally attempted whether or not the band knows the song.
+- Two sets of fourteen, twenty minutes between.
+- Payment divided equally, deputies included.
+- The last song is always slow.
+
+A framed drinks list from the Sirocco does exist — Pesic took it down the night before the
+demolition and kept it in his van. What is on it is never specified.
 
 ## TIMELINE
 - **1991** — Formed 14 Feb. First residency: Tuesday nights, Golden Fleece Hotel, Brunswick (Aug 1991–Mar 1993).
-- **1992** — Ken Pantelis leaves (back injury, wedding), nominates **Dougie Farr**. Article 4 born.
+- **1992** — Ken Pantelis leaves (back injury, wedding), nominates **Dougie Farr**. The nomination practice begins.
 - **1993** — First cassette *Velvet by Candlelight*, 500 copies dubbed in Joan Velletri's garage, Preston.
-- **1994** — Sign to **Vellum Records** (a two-man label run out of the back of the Northcote Milk Bar by Ron Vellum and his brother-in-law). The **Chandelier Room residency** begins at the **Hotel Sirocco**, St Kilda — Wed to Sat. Runs to Dec 1999: **611 performances**. Charter written 2 June.
+- **1994** — Sign to **Vellum Records** (a two-man label run out of the back of the Northcote Milk Bar by Ron Vellum and his brother-in-law). The **Chandelier Room residency** begins at the **Hotel Sirocco**, St Kilda — Wed to Sat. Runs to Dec 1999: **611 performances**.
 - **1995** — Album *Do You Know the Way to Santa Fe?* No. 4 on the Victorian Independent Cassette Chart, a chart which existed for eleven weeks.
-- **1996** — Neville Marsh's "Preston Baroque" review, 12 April, *The Melbourne Weekly Observer*. **The Tuxedo Schism**: bassist **Sonny Kane** and drummer Dougie Farr walk out over ruffled shirts, form **Sonny Kane and the Velveteens**. Feud ongoing.
-- **1997** — *Ipanema After Midnight*. Warren "Waz" Tiplady joins on drums. Fan club founded (Tendertones Appreciation Society, Marjorie Croll, president).
+- **1996** — Neville Marsh's "Preston Baroque" review, 12 April, *The Melbourne Weekly Observer*. **The split**: bassist **Sonny Kane** and drummer Dougie Farr walk out over ruffled shirts, form **Sonny Kane and the Velveteens**. Feud ongoing.
+- **1997** — *Ipanema After Midnight*. Warren "Waz" Tiplady joins on drums. The band starts posting a seasonal card to anyone who asks for one.
 - **1998** — **The Trans-Tasman Tenderness Tour**, nine dates, New Zealand. Two shows cancelled (ferry).
 - **1999** — *Two Drinks Minimum*. **The Y2K Midnight Set**, 31 Dec: power fails at 11.58pm, band completes the set acoustically by cigarette lighter. Bootleg cassette circulates for a decade.
 - **2000** — Sirocco sold. Last Chandelier Room show 30 June 2000.
@@ -77,7 +78,6 @@ Written on the back of a Sirocco drinks list, 2 June 1994. Seven articles. Frame
 - **2020** — **The Balcony Sessions**: Frankie sings nightly from his balcony in Reservoir, 91 consecutive nights. *Live from the Balcony (Reservoir)*.
 - **2021** — **Lionel Bright**, 19, joins on guitar after a clip of him playing "Nino's Waltz" reaches the band.
 - **2022** — *The Long Ipanema*. Documentary ***Still Tender*** (dir. Priya Ramanathan) premieres at Northcote Independent Film Week.
-- **2023** — **The Santa Fe Affair.** Settled November.
 - **2024** — Residency returns to the Astoria (now the Golden Lotus Reception Centre) for the 33rd anniversary. *Still Tender: Live at the Astoria*.
 - **2025** — *The Velvet Songbook*, with the Northern Suburbs Chamber Ensemble.
 - **2026** — **The Long Goodnight** residency announced, Emerald Room, Coburg, Fridays. Frankie is 65.
@@ -85,7 +85,7 @@ Written on the back of a Sirocco drinks list, 2 June 1994. Seven articles. Frame
 ## CURRENT LINE-UP (2026)
 | Member | Role | Joined |
 |---|---|---|
-| Frankie Velvet | voice, maracas, emotional direction | 1991 |
+| Frankie Velvet | voice, maracas | 1991 |
 | Warren "Waz" Tiplady | drums (brushes only) | 1997 |
 | Marco Reis | double bass, electric bass | 2011 |
 | Delphine "Del" Auguste | Hammond organ, backing voice | 2013 |
@@ -93,14 +93,14 @@ Written on the back of a Sirocco drinks list, 2 June 1994. Seven articles. Frame
 | Lionel Bright | guitar | 2021 |
 | The Velvettes — Rhonda Pike, Marj Delahunty, Kaye Osborne | backing voices | 1995, 1995, 2006 |
 
-## PAST TENDERTONES (roll of honour — 31 total)
+## PAST TENDERTONES (31 in total)
 Barry Sloane (organ, 1991–2000, 2004–2012, d. 2019) · Ken Pantelis (drums, 1991–1992) ·
 Ivan "Nino" Pesic (tenor sax, 1991–2016, d. 2016) · Dougie Farr (drums, 1992–1996) ·
 Sonny Kane (bass, 1993–1996) · Terry Ng (bass, 1996–2001) · Lorraine Petch (backing voice, 1994–1998) ·
 Vince Amato (trumpet, 1995–1999) · Col Brindle (guitar, 1996–2003) · Bruno Salgado (percussion, 2008–2015) ·
 Yolanda Prewitt (backing voice, 1999–2004) · Kevin "Doc" Hallward (bass, 2001–2011) ·
 Neil Torpey (guitar, 2003–2010) · Georgina Aspinall (flute, 2006–2009) · Ray Mifsud (organ, 2012–2013) ·
-Stefan Kolar (guitar, 2010–2021) · and fifteen others listed on the Roll.
+Stefan Kolar (guitar, 2010–2021) · and fifteen others.
 
 ## THE FEUD
 **Sonny Kane and the Velveteens** — formed 1996 after the Tuxedo Schism. Still performing.
@@ -113,16 +113,15 @@ except in 2014: _"Sonny's a good bass player and a bad witness."_
 - **Sim Lachlan** — *Grooveyard Monthly* (UK), wrote the 2014 reappraisal.
 - **Inês Craveiro** — *Ruído*, Lisbon fanzine.
 - **Hartmut Bell** — founder, Nocturne Reissues, Berlin.
-- **Marjorie Croll** — president, Tendertones Appreciation Society, 1997–2019 (d. 2019).
-- **Colleen Whitrod** — president since 2019. Edits *The Tender Bulletin*.
+- **Marjorie Croll** — named the band in 1991; Bettina's grandmother (d. 2019).
 - **Ron Vellum** — Vellum Records, Northcote.
 - **Priya Ramanathan** — director, *Still Tender* (2022).
 - **Norm Castellan** — bandleader who never arrived. Later a friend. Died 2004.
 
 ## PUBLICATIONS (all invented)
 *The Melbourne Weekly Observer* · *Australian Cabaret Review* · *Grooveyard Monthly* (UK) ·
-*Tone Arm* · *Ruído* (PT) · *Jangle & Hiss* · *The Tender Bulletin* (fan club) ·
-*Northern Star Leader* · *Function & Reception Monthly*
+*Tone Arm* · *Ruído* (PT) · *Jangle & Hiss* · *Northern Star Leader* ·
+*Function & Reception Monthly*
 
 ## VENUES (all invented except St Andrews)
 Astoria Reception Centre, Thornbury (now Golden Lotus) · Golden Fleece Hotel, Brunswick ·
@@ -131,8 +130,17 @@ The Palais Rialto, Fitzroy · The Emerald Room, Coburg · M.S. Coral Duchess ·
 Casino Estoril terrace, Portugal · **St Andrews Pub, St Andrews, Victoria** (real; source of the archive photos)
 
 ## HOUSE STYLE FOR THE SITE
-- Everything is written as if by a devoted archivist, not by the band.
-- Precision is the joke: exact dates, exact takings, exact numbers of encores.
-- Never wink. Never say "fictional," "parody," "tribute." No emoji. No exclamation marks except in
-  quoted advertising copy.
-- Cheese is sincere. The band believes entirely in itself.
+The site is the band's own. Plain, slightly formal, practical — the way a long-running working act
+writes about itself. There is no archivist, no fan club and no narrator.
+
+**The humour is meant to be missable.** It lives in facts stated flatly and then dropped:
+twenty-five years in the tenor chair beginning with an air-conditioning call-out; a guitar that
+belongs to the band rather than the player; "no reviews at all"; an arrangement that runs
+thirty-eight minutes. Never point at any of it.
+
+Rules for new copy:
+- No punchline sentences. If a paragraph's last line is the funny one, cut it.
+- No comic lists, no numbered articles, no "0" in a statistics table.
+- Numbers are precise and unremarked.
+- Never wink. Never say fictional, parody or tribute. No emoji, no exclamation marks.
+- The band believes entirely in itself, and nobody writing about it is winking either.

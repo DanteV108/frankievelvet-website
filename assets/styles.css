@@ -214,7 +214,7 @@ p:last-child { margin-bottom: 0; }
 
 /* ---------- 6. Hero ------------------------------------------------------ */
 
-.hero { margin: 2.6rem 0 0; }
+.hero { margin: 2.6rem auto 0; }
 .hero__frame {
   position: relative;
   padding: 12px;
@@ -331,19 +331,17 @@ p:last-child { margin-bottom: 0; }
 .stamp--flat { transform: none; }
 
 .ticket {
-  display: grid; grid-template-columns: auto 1fr;
-  background: linear-gradient(90deg, #f6ecd4 0 84px, #fbf5e8 84px);
+  display: grid; grid-template-columns: minmax(88px, auto) 1fr;
+  background: #fbf5e8;
   border: 1px solid rgba(36,28,22,.28);
   box-shadow: 0 12px 24px -20px rgba(36,28,22,.7);
-  position: relative; overflow: hidden;
-}
-.ticket::before {
-  content: ""; position: absolute; left: 84px; top: 0; bottom: 0;
-  border-left: 2px dashed rgba(36,28,22,.32);
+  overflow: hidden;
 }
 .ticket__stub {
   display: grid; place-content: center; text-align: center;
-  padding: 1rem .5rem; border-right: 0;
+  padding: 1rem .9rem;
+  background: #f4ead2;
+  border-right: 2px dashed rgba(36,28,22,.32);
 }
 .ticket__stub span {
   display: block; font-family: var(--poster); font-weight: 700;
@@ -351,13 +349,12 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink-soft);
 }
 .ticket__stub strong {
-  display: block; font-family: var(--display); font-size: 1.7rem; line-height: 1;
+  display: block; font-family: var(--display); font-size: 1.7rem; line-height: 1.1;
   color: var(--oxblood);
 }
-.ticket__body { padding: 1rem 1.2rem; }
+.ticket__body { padding: 1rem 1.2rem; min-width: 0; }
 .ticket__body h4 { margin: 0 0 .2rem; font-family: var(--display); }
 .ticket__body p { margin: 0; font-family: var(--type); font-size: .78rem; color: var(--ink-mid); }
-
 /* ---------- 10. Pull quotes ---------------------------------------------- */
 
 .pullquote {

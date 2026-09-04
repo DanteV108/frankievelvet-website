@@ -1,18 +1,19 @@
 # Frankievelvet and the Tendertones — the official archive
 
-A nine-page static site. No framework, no dependencies, no build step needed to
+A ten-page static site. No framework, no dependencies, no build step needed to
 *host* it — upload the folder and it works. Tested down to 390px wide.
 
 ```
-index.html          Front page
-history.html        The Legend, 1991–2026 (+ #santa-fe, #charter)
-band.html           Current line-up and the Roll of Honour
-discography.html    14 studio albums, 6 live, 4 compilations, 22 singles
-listen.html         The listening room (audio player)
-press.html          Reviews and three long interviews (#interviews)
-tour.html           Engagement diary and residency record
-gallery.html        The photographic archive
-society.html        The fan club (#bulletin, #bookings)
+index.html          Home
+history.html        1991–2026
+band.html           Current line-up and every member since 1991
+discography.html    14 studio records, 6 live, 4 compilations, 22 singles (#singles)
+listen.html         Audio player
+press.html          Reviews and three interviews (#interviews)
+tour.html           Dates and the residency record
+gallery.html        Photographs
+contact.html        Bookings and stage requirements (#requirements)
+404.html            Not found
 
 assets/styles.css   One stylesheet, sectioned and commented
 assets/site.js      Audio player, image lightbox, discography filter
@@ -22,7 +23,7 @@ assets/audio/       MP3s for the listening room
 src/*.body.html     Page bodies (see "Editing" below)
 tools/build.py      Wraps the bodies in the shared masthead/nav/footer
 tools/*.py          The image-processing scripts, kept for re-runs
-LORE.md             Continuity bible — names, dates, running jokes
+LORE.md             Continuity bible — names, dates, who joined when
 ```
 
 ## Editing
@@ -86,34 +87,3 @@ replace the `<link>` in `tools/build.py`.
 `st-andrews-full.jpg`, `st-andrews-wide.jpg`, `room-detail.jpg` and
 `guitar-stage-right.jpg` are all derived from your two original scans. Everything
 else is derived from the generated sheets. Originals were not modified.
-
-## Deploying
-
-The site is entirely static — HTML, CSS, one JS file, images and audio. Anything
-that serves files will serve it.
-
-**GitHub Pages** (same pattern as `daniel-green-portfolio`):
-
-```bash
-gh repo create frankievelvet --public --source=. --remote=origin --push
-# then: Settings → Pages → Deploy from branch → main → / (root)
-```
-
-`.nojekyll` is present so Pages serves the folder as-is rather than running it
-through Jekyll. `robots.txt` and `sitemap.xml` assume
-`https://dantev108.github.io/frankievelvet/` — change the base URL in both if the
-site lands on its own domain, and add a `CNAME` file containing that domain.
-
-**Anywhere else** (Netlify, Render, a plain host): publish directory is the repo
-root, no build command. If you'd rather not ship the sources, exclude `src/`,
-`tools/`, `LORE.md` and `README.md` — the ten `.html` files and `assets/` are the
-whole site.
-
-**Locally:**
-
-```bash
-python3 -m http.server 8000
-```
-
-Opening `index.html` straight off disk works too, though the audio player is
-happier over HTTP.
