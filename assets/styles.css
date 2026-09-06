@@ -675,6 +675,37 @@ table.rec td.note { color: var(--muted); font-size: .89rem; }
   text-transform: uppercase; letter-spacing: .06em;
 }
 
+/* ---------- 21b. Visitor counter ------------------------------------------
+   Bolted onto the footer in 1998 and never taken down. It is meant to sit
+   badly against everything else; that is the joke. Stays hidden unless the
+   count actually arrives, so a dead service shows nothing rather than zero.
+   -------------------------------------------------------------------------- */
+
+.counter[hidden] { display: none !important; }
+.counter { margin-top: 2.8rem; text-align: center; }
+.counter__label {
+  font-family: var(--poster); text-transform: uppercase; letter-spacing: .18em;
+  font-size: .62rem; color: var(--gold-2); margin: 0 0 .6rem;
+}
+.counter__digits {
+  display: inline-flex; gap: .16rem; padding: .5rem .55rem;
+  background: #050506; border: 1px solid #000; border-radius: 2px;
+  box-shadow: inset 0 0 16px rgba(0, 0, 0, .95), 0 1px 0 rgba(246, 231, 205, .06);
+}
+.counter__digits b {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, "Courier New", monospace;
+  font-weight: 700; font-size: 1.05rem; line-height: 1;
+  width: 1.05em; padding: .26rem 0; text-align: center;
+  background: #0b1310; color: #5cf08d;
+  text-shadow: 0 0 7px rgba(92, 240, 141, .8);
+  border: 1px solid rgba(92, 240, 141, .13);
+}
+.counter__digits img { display: block; }
+.counter__note {
+  font-family: var(--type); font-size: .68rem; letter-spacing: .04em;
+  color: var(--muted); opacity: .6; margin: .65rem 0 0;
+}
+
 /* ---------- 22. Lightbox -------------------------------------------------- */
 
 .lightbox[hidden] { display: none !important; }

@@ -144,3 +144,48 @@
     });
   }
 })();
+
+/* ---- Visitor counter -----------------------------------------------------
+   Asks GoatCounter for the site-wide total and paints it into the odometer.
+   Requires "Allow adding visitor counts on your website" in the GoatCounter
+   site settings. If that is off, or the request fails for any reason, the
+   counter simply stays hidden. The service caches the total for up to four
+   hours, so the number lags reality by design.
+   -------------------------------------------------------------------------- */
+(function () {
+  var box = document.querySelector(".counter");
+  if (!box) return;
+  var panel = box.querySelector(".counter__digits");
+  var ENDPOINT = "https://frankievelvet.goatcounter.com/counter/TOTAL";
+
+  function paint(value) {
+    var s = String(value).replace(/\D/g, "");
+    if (!s) return;
+    while (s.length < 7) s = "0" + s;
+    panel.innerHTML = "";
+    for (var i = 0; i < s.length; i++) {
+      var d = document.createElement("b");
+      d.textContent = s.charAt(i);
+      panel.appendChild(d);
+    }
+    box.hidden = false;
+  }
+
+  /* No cross-origin JSON? Take the image the service renders instead. */
+  function fallback() {
+    var img = new Image();
+    img.alt = "";
+    img.onload = function () {
+      panel.innerHTML = "";
+      panel.appendChild(img);
+      box.hidden = false;
+    };
+    img.src = ENDPOINT + ".svg?no_branding=1";
+  }
+
+  if (!window.fetch) { fallback(); return; }
+  fetch(ENDPOINT + ".json")
+    .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function (j) { paint(j.count); })
+    .catch(fallback);
+})();

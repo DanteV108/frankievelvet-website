@@ -140,6 +140,12 @@ __BODY__
         </ul>
       </div>
     </div>
+    <div class="counter" hidden>
+      <p class="counter__label">Patrons through the door</p>
+      <div class="counter__digits" role="status" aria-live="polite"></div>
+      <p class="counter__note">Counter installed 1998 &middot; maintained irregularly</p>
+    </div>
+
     <div class="foot__base">
       <span>Frankievelvet and the Tendertones &middot; Melbourne</span>
       <span>&copy; 2026</span>
