@@ -701,10 +701,6 @@ table.rec td.note { color: var(--muted); font-size: .89rem; }
   border: 1px solid rgba(92, 240, 141, .13);
 }
 .counter__digits img { display: block; }
-.counter__note {
-  font-family: var(--type); font-size: .68rem; letter-spacing: .04em;
-  color: var(--muted); opacity: .6; margin: .65rem 0 0;
-}
 
 /* ---------- 22. Lightbox -------------------------------------------------- */
 
