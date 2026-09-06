@@ -146,7 +146,11 @@
 })();
 
 /* ---- Visitor counter -----------------------------------------------------
-   Asks GoatCounter for the site-wide total and paints it into the odometer.
+   Asks GoatCounter how many visits the landing page has had and paints that
+   into the odometer. The landing page rather than the site-wide total, because
+   the total sums every page: one person reading four pages counts four times.
+   Most people arrive at the front door once, so this is the closest thing to a
+   count of people that a cookieless tracker can honestly give.
    Requires "Allow adding visitor counts on your website" in the GoatCounter
    site settings. If that is off, or the request fails for any reason, the
    counter simply stays hidden. The service caches the total for up to four
@@ -156,7 +160,12 @@
   var box = document.querySelector(".counter");
   if (!box) return;
   var panel = box.querySelector(".counter__digits");
-  var ENDPOINT = "https://frankievelvet.goatcounter.com/counter/TOTAL";
+  /* The canonical landing page. frankievelvet.com is the real site (Render,
+     deploying from this repo); the GitHub Pages copy reports the same
+     number rather than its own, which is what we want. */
+  var LANDING = "/";
+  var ENDPOINT = "https://frankievelvet.goatcounter.com/counter/" +
+                 encodeURIComponent(LANDING);
 
   function paint(value) {
     var s = String(value).replace(/\D/g, "");
