@@ -24,6 +24,10 @@ NAV = [
     ("contact.html", "Contact"),
 ]
 
+# The canonical home. frankievelvet.com is served by Render from this repo;
+# any other copy points search engines back here.
+SITE_URL = "https://frankievelvet.com"
+
 FONTS = ("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700"
          "&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900"
          "&family=EB+Garamond:ital,wght@0,400..700;1,400..700"
@@ -46,7 +50,17 @@ ANALYTICS = (
 ) if GOATCOUNTER else ""
 
 
-def head(title, desc):
+def head(title, desc, page):
+    canonical = SITE_URL + "/" + ("" if page == "index.html" else page)
+    # The not-found page is not a destination: no canonical, and keep it out
+    # of the index.
+    if page == "404.html":
+        indexing = '<meta name="robots" content="noindex">'
+        canon = ""
+    else:
+        indexing = ""
+        canon = (f'<meta property="og:url" content="{canonical}">\n'
+                 f'<link rel="canonical" href="{canonical}">')
     return f"""<!doctype html>
 <html lang="en-AU">
 <head>
@@ -57,7 +71,8 @@ def head(title, desc):
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="assets/img/band-hero.jpg">
+<meta property="og:image" content="{SITE_URL}/assets/img/band-hero.jpg">
+{canon}{indexing}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="{FONTS}" rel="stylesheet">
@@ -172,7 +187,7 @@ def build():
             raise SystemExit(f"{fn}: missing title/desc comments at top of file")
         title, desc, body = m.group(1), m.group(2), raw[m.end():]
 
-        html = head(title, desc) + nav(page) + FOOT.replace("__BODY__", body.rstrip())
+        html = head(title, desc, page) + nav(page) + FOOT.replace("__BODY__", body.rstrip())
         open(os.path.join(ROOT, page), "w", encoding="utf-8").write(html)
         print(f"  {page:22s} {len(html)//1024} kb")
         n += 1

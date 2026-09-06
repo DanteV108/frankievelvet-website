@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dantev108.github.io/frankievelvet-website/sitemap.xml
+Sitemap: https://frankievelvet.com/sitemap.xml
