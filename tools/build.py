@@ -34,6 +34,17 @@ FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox
            "font-family='Georgia,serif' font-size='34' font-weight='700' text-anchor='middle' "
            "fill='%237c1f2b'%3EFV%3C/text%3E%3C/svg%3E")
 
+# Visitor statistics. GoatCounter: no cookies, no personal data, so no consent
+# banner is required. Register this code once at https://www.goatcounter.com/
+# (it becomes <code>.goatcounter.com, where the dashboard lives).
+# Set GOATCOUNTER = "" to strip analytics from the site entirely.
+GOATCOUNTER = "frankievelvet"
+
+ANALYTICS = (
+    f'<script data-goatcounter="https://{GOATCOUNTER}.goatcounter.com/count"\n'
+    f'        async src="https://gc.zgo.at/count.js"></script>\n'
+) if GOATCOUNTER else ""
+
 
 def head(title, desc):
     return f"""<!doctype html>
@@ -52,7 +63,7 @@ def head(title, desc):
 <link href="{FONTS}" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="icon" href="{FAVICON}">
-</head>
+{ANALYTICS}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
