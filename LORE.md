@@ -1,8 +1,8 @@
-# FRANKIEVELVET AND THE TENDERTONES — CANON
+# FRANKIE VELVET AND THE TENDERTONES — CANON
 _Internal continuity bible. Not for publication. Keep the site consistent with this._
 
 ## THE ACT
-- **Full billing:** Frankievelvet and the Tendertones (one word, from a 1993 printer's error). The man is Frankie Velvet, two words.
+- **Full billing:** Frankie Velvet and the Tendertones. Two words, always, on the posters and in the archive. The man is Frankie Velvet; the act adds the Tendertones.
 - **Formed:** 14 February 1991, Astoria Reception Centre, Thornbury, Victoria
 - **Self-described genre:** "the Velvet Sound." Critics say **Preston Baroque** (coined as an insult, 1996, adopted by the band 1997).
 - **Strapline (on the posters since 1994):** _"Tenderness, Nightly."_

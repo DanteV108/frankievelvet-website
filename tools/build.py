@@ -90,7 +90,7 @@ def head(title, desc, page):
     </div>
     <a class="masthead__name" href="index.html">
       <em>Continental Entertainment Since 1991</em>
-      <strong>Frankievelvet</strong>
+      <strong>Frankie Velvet</strong>
       <b>and the Tendertones</b>
     </a>
     <p class="masthead__motto">Tenderness, Nightly</p>
@@ -161,7 +161,7 @@ __BODY__
     </div>
 
     <div class="foot__base">
-      <span>Frankievelvet and the Tendertones &middot; Melbourne</span>
+      <span>Frankie Velvet and the Tendertones &middot; Melbourne</span>
       <span>&copy; 2026</span>
     </div>
   </div>

@@ -1,4 +1,4 @@
-# Frankievelvet and the Tendertones — the official archive
+# Frankie Velvet and the Tendertones — the official archive
 
 A ten-page static site. No framework, no dependencies, no build step needed to
 *host* it — upload the folder and it works. Tested down to 390px wide.
