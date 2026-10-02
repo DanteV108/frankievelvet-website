@@ -59,9 +59,26 @@
       });
     });
 
+    /* Next transferred track after i, wrapping round to the top of the album.
+       Tracks still on tape (no data-src) are skipped. Returns -1 if none. */
+    function nextPlayable(i) {
+      for (var step = 1; step <= buttons.length; step++) {
+        var n = (i + step) % buttons.length;
+        if (buttons[n].getAttribute("data-src")) return n;
+      }
+      return -1;
+    }
+
     audio.addEventListener("ended", function () {
-      if (current + 1 < buttons.length) play(current + 1);
-      else setState("End of side two.");
+      var n = nextPlayable(current);
+      if (n === -1) return;
+      if (n === current) {
+        audio.currentTime = 0;
+        audio.play();
+        setState("Playing");
+      } else {
+        play(n);
+      }
     });
     audio.addEventListener("error", function () {
       setState("Not yet digitised — reel held at Preston.");
